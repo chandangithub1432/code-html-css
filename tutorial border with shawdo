@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    p {
+       box-shadow: inset;
+        box-sizing: content-box;
+       color: blue;
+        border: 2px solid
+     ;
+     text-shadow: 5px 8px 10px rgb(215, 11, 143);
+box-shadow: 2px 2px 2px red;
+        padding: 5px;
+        margin: 5px;10px;
+        border-color: brown;
+    }
+</style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus ut fuga libero atque quas rerum
+        error quae ex odio?</p>
+</body>
+
+</html>
