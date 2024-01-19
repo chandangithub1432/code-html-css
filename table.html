@@ -4,39 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table data</title>
+    <title>marksheet</title>
+    <style>
+        h3 {
+            margin: 0%;
+            padding: 0%;
+            border-radius: 80px;
+        }
+
+        p {
+            background-color: antiquewhite;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        table {
+            text-transform: capitalize;
+
+        }
+    </style>
 </head>
 
 <body>
-    <h1 align="center" style="color: rgb(245, 239, 238); background-color: blue;"> Course details</h1>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quidem itaque voluptate tenetur explicabo.
-        Quisquam!</p>
-    <table align="center" border="solid 2px">
+    <h3 style="background-color: blueviolet; color: aliceblue;" align="center"> STUDENT MARKSHEET</h3>
+    <p> student marksheet for given below list</p>
+
+    <div>
+        <ul>
+            <li>ajay</li>
+            <li>navya</li>
+            <li>pankaj</li>
+        </ul>
+    </div>
+    <table border="2px" align="center">
         <thead>
-            <tr style="border: 3px solid blue; background-color: yellow;">
-                <th>course </th>
-                <th>fee </th>
-                <th>duration </th>
+            <tr style="border: 2px solid black; background-color: azure; ">
+                <th>student name</th>
+                <th>roll no.</th>
+                <th>math</th>
+                <th>physics</th>
+                <th>chemistry</th>
+                <th>biology</th>
+                <th>computer</th>
             </tr>
-    
-    
+        </thead>
         <tbody>
             <tr>
-                <td>web developer</td>
-                <td>5000</td>
-                <td>3 month</td>
+                <td>ajay</td>
+                <td>0001</td>
+                <td>95</td>
+                <td>85</td>
+                <td>78</td>
+                <td>64</td>
+                <td>81</td>
             <tr>
-                <td>css</td>
-                <td>3000</td>
-                <td>4 week</td>
+                <td>navya</td>
+                <td>0002</td>
+                <td>90</td>
+                <td>85</td>
+                <td>69</td>
+                <td>60</td>
+                <td>87</td>
             <tr>
-                <td>html</td>
-                <td>2000</td>
-                <td>2 week</td>
+                <td>pankaj</td>
+                <td>0005</td>
+                <td>91</td>
+                <td>88</td>
+                <td>78</td>
+                <td>55</td>
+                <td>77</td>
+            </tr>
             </tr>
         </tbody>
     </table>
-</body>
+
+    </br>
+    <div>
+        <h3>Fill free contact form</h3>
+    
+        <label for="email">type email</label><br>
+        <input type="email" name="enter email" id="email"><br>
+        <label for="password"> password</label><br>
+        <input type="password"><br>
+        <label for="name">name</label><br>
+        <input type="name"><br>
+        <label for="gender">gender</label><br>
+        <input type="radio" name="gender" id="mail"> male
+        <input type="radio" name="gender" id="female"> female
+        <input type="radio" name="gender" id="other">other <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"> <br>
+    </div>
 
 </html>
